@@ -1,0 +1,7 @@
+---
+title: "Mallard Duck Movement"
+author: "GitHub Copilot"
+format: html
+---
+
+This document explores mallard duck movement patterns.

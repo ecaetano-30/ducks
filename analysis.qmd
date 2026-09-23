@@ -6,7 +6,15 @@ execute:
   echo: false
 ---
 
-This document explores mallard duck movement patterns.
+Mallard ducks are a familiar and adaptable species of freshwater wetland birds, known for their distinctive green heads, white neck rings, and strong migratory instincts. They live in lakes, rivers, marshes, and agricultural fields across Europe and North America, where they feed on plants, seeds, and small aquatic animals.
+
+Lake Constance, one of the largest freshwater lakes in Central Europe, lies on the border of Germany, Switzerland, and Austria. It is an important stopover and wintering area for many migratory waterbirds, making it an ideal setting for studying movement and behavior in the wild.
+
+The GPS tracking data reveal how these ducks move across the landscape over time, showing patterns of migration, habitat use, and seasonal change. By following individual birds, researchers can better understand how they respond to the environment and where they spend the most time throughout the year.
+
+<div style="display: flex; justify-content: center;">
+  <img src="images/mallard.jpg" style="height: 300px; width: auto;"/>
+</div>
 
 ```{r}
 #| message: false

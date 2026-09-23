@@ -1,0 +1,27 @@
+---
+title: "Mallard Duck Movement"
+author: "GitHub Copilot"
+format: html
+execute:
+  echo: false
+---
+
+This document explores mallard duck movement patterns.
+
+```{r}
+#| message: false
+library(tidyverse)
+library(sf)
+```
+
+```{r}
+#| cache: true
+mallards <- readRDS("data/mallards.rds")
+```
+
+```{r}
+fixes_by_month <- mallards |>
+  count(month, sort = TRUE)
+
+fixes_by_month
+```
